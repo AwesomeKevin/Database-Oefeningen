@@ -8,7 +8,7 @@ using Oracle.DataAccess.Types;
 
 namespace Paardenfokkerij_Oefening
 {
-    public class Databaseconnectie
+    public class DatabaseConnectie
     {
         string info;
         private OracleConnection conn;
@@ -16,11 +16,11 @@ namespace Paardenfokkerij_Oefening
         string user = "Kees";
         string pw = "Fontys18Oracle";
 
-        public Databaseconnectie()
+        public DatabaseConnectie()
         {
             conn = new OracleConnection();
             command = conn.CreateCommand();
-            conn.ConnectionString = "User Id=" + user + ";Password=" + pw + ";Data Source=" + "//localhost:1521/xe" + ";";
+            this.conn = new OracleConnection("DATA SOURCE=192.168.15.50:1521/fhictora;PERSIST SECURITY INFO=True;USER ID=DBI324928; PASSWORD=oBVmntOXe6");
         }
 
         public string HaalInfoOp()

@@ -8,7 +8,7 @@ namespace Paardenfokkerij_Oefening
 {
     class Paardenfokkerij
     {
-        Databaseconnectie dbc = new Databaseconnectie();
+        DatabaseConnectie dbc = new DatabaseConnectie();
 
         public string Naam
         {

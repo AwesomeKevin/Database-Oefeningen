@@ -12,7 +12,7 @@ namespace Paardenfokkerij_Oefening
 {
     public partial class PaardenfokkerijForm : Form
     {
-        Databaseconnectie databaseconnectie;
+        DatabaseConnectie databaseconnectie;
 
         public PaardenfokkerijForm()
         {
