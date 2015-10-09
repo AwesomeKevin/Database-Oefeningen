@@ -1,0 +1,10 @@
+c:\users\kevin\documents\visual studio 2013\Projects\Paardenfokkerij Oefening\Paardenfokkerij Oefening\bin\Debug\Paardenfokkerij Oefening.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\bin\Debug\Paardenfokkerij Oefening.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\bin\Debug\Paardenfokkerij Oefening.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\bin\Debug\Paardenfokkerij Oefening.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij Oefening.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij_Oefening.PaardenfokkerijForm.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij_Oefening.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij Oefening.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij Oefening.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij Oefening.pdb
