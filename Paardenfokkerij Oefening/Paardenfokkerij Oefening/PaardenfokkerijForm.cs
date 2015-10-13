@@ -21,7 +21,7 @@ namespace Paardenfokkerij_Oefening
 
         private void PaardenfokkerijForm_Load(object sender, EventArgs e)
         {
-            databaseconnectie = new Databaseconnectie();
+            databaseConnectie = new DatabaseConnectie();
         }
 
         private void btnVraagOudersOp_Click(object sender, EventArgs e)

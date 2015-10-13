@@ -8,7 +8,7 @@ namespace Paardenfokkerij_Oefening
 {
     class Paard
     {
-        Databaseconnectie databaseconnectie = new Databaseconnectie();
+        private DatabaseConnectie databaseconnectie = new DatabaseConnectie();
 
         public int Id
         {

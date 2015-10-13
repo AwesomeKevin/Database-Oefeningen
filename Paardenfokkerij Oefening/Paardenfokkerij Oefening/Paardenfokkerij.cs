@@ -23,7 +23,7 @@ namespace Paardenfokkerij_Oefening
 
         public Paard GeefPaard(int paardId)
         {
-
+            return null;
         }
     }
 }
