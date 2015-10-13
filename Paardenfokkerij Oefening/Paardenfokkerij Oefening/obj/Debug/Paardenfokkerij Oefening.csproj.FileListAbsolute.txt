@@ -16,3 +16,4 @@ C:\Users\gebruiker-pc\Documents\GitHub\Database-Oefeningen\Paardenfokkerij Oefen
 C:\Users\gebruiker-pc\Documents\GitHub\Database-Oefeningen\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij_Oefening.Properties.Resources.resources
 C:\Users\gebruiker-pc\Documents\GitHub\Database-Oefeningen\Paardenfokkerij Oefening\Paardenfokkerij Oefening\obj\Debug\Paardenfokkerij Oefening.csproj.GenerateResource.Cache
 C:\Users\Kevin\Documents\GitHub\Database-Oefeningen\Paardenfokkerij Oefening\Paardenfokkerij Oefening\bin\Debug\Paardenfokkerij Oefening.exe.config
+C:\Users\Jehama\Documents\GitHub\Database-Oefeningen\Paardenfokkerij Oefening\Paardenfokkerij Oefening\bin\Debug\Paardenfokkerij Oefening.exe.config

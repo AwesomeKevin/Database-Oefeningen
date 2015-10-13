@@ -12,7 +12,7 @@ namespace Paardenfokkerij_Oefening
 {
     public partial class PaardenfokkerijForm : Form
     {
-        DatabaseConnectie databaseconnectie;
+        DatabaseConnectie databaseConnectie;
 
         public PaardenfokkerijForm()
         {
@@ -26,8 +26,16 @@ namespace Paardenfokkerij_Oefening
 
         private void btnVraagOudersOp_Click(object sender, EventArgs e)
         {
-            foreach()
-            lbStamboom.Items.Add(databaseconnectie.HaalInfoOp());
+            try
+            {
+                foreach ()
+                lbStamboom.Items.Add(databaseConnectie.HaalInfoOp());
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
