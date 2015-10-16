@@ -45,34 +45,34 @@ INSERT INTO BAAN(ID, Vliegveld_ID)
 VALUES(2, 1);
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(1, 'KLM', '');
+VALUES(1, 'KLM', 'Airbus_A300');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(2, 'KLM', '');
+VALUES(2, 'KLM', 'Airbus_A310');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(3, 'KLM', '');
+VALUES(3, 'KLM', 'Airbus_A318');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(4, 'KLM', '');
+VALUES(4, 'KLM', 'Airbus_A319');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(5, 'KLM', '');
+VALUES(5, 'KLM', 'Boing_727');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(6, 'KLM', '');
+VALUES(6, 'KLM', 'Boing_737');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(7, 'KLM', '');
+VALUES(7, 'KLM', 'Boing_747');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(8, 'KLM', '');
+VALUES(8, 'KLM', 'Comac_C919');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(9, 'KLM', '');
+VALUES(9, 'KLM', 'Douglas_DC_2');
 
 INSERT INTO VLIEGTUIG(ID, Maatschappijnaam, Type)
-VALUES(10, 'KLM', '');
+VALUES(10, 'KLM', 'Saab_2000');
 
 INSERT INTO RESERVERING(Baan_ID, DatumtijdVan, DatumtijdTot, Vluchtnummer, Vliegtuig_ID, Type)
 VALUES(1, TO_DATE('16/10/2015/ 10:15', 'DD/MM/YYYY HH:MI'), TO_DATE('16/10/2015/ 10:30', 'DD/MM/YYYY HH:MI'), 'KLM-400', 1, 'Vertrek');
