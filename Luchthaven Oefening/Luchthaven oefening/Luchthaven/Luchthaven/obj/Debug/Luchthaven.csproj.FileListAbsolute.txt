@@ -1,1 +1,2 @@
 C:\Users\gebruiker-pc\Desktop\Luchthaven oefening\Luchthaven\Luchthaven\bin\Debug\Luchthaven.exe.config
+C:\Users\gebruiker-pc\Documents\GitHub\Database-Oefeningen\Luchthaven Oefening\Luchthaven oefening\Luchthaven\Luchthaven\bin\Debug\Luchthaven.exe.config
