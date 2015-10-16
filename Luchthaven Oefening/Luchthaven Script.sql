@@ -31,6 +31,6 @@ create table RESERVERING
     Vliegtuig_ID 	number			not null	references VLIEGTUIG(id),
     Type 			varchar2(255)	not null,
 
-	CHECK(LOWER(type) == 'vertrek' || LOWER(type) == 'landing'),
-    PRIMARY KEY (baan_id, datumtijdvan)
+	check(Type in ('Vertrek', 'Landing')),
+    primary key (Baan_ID, DatumtijdVan)
 );
