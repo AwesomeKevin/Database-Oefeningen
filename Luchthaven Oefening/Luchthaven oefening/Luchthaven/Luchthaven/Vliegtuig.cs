@@ -22,13 +22,21 @@ namespace Luchthaven
 
     class Vliegtuig
     {
-        public LuchtVaartMaatschappij Maatschappij { get; set; }
         public VliegtuigType Type { get; set; }
 
-        public Vliegtuig(LuchtVaartMaatschappij maatschappij, VliegtuigType type)
+        public Vliegtuig(VliegtuigType type)
         {
-            this.Maatschappij = maatschappij;
             this.Type = type;
+        }
+
+        /// <summary>
+        /// Voegt een reservering toe aan een baan. 
+        /// </summary>
+        /// <param name="baan"></param>
+        /// <returns>Een boolean die: indien ... true geeft. Indien ..., false geeft.</returns>
+        public bool MaakReservering(Reservering reservering)
+        {
+
         }
     }
 }
