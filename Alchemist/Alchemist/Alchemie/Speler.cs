@@ -12,6 +12,8 @@ namespace Alchemie
         public string Email { get; set; }
         public int Geld { get; set; }
         public List<Recept> recepten;
+        public List<Ingredient> ingredienten;
+        public List<Voorwerp> voorwerpen;
 
         public Speler(string naam, string email, int geld)
         {
@@ -19,6 +21,8 @@ namespace Alchemie
             Email = email;
             Geld = geld;
             recepten = new List<Recept>();
+            ingredienten = new List<Ingredient>();
+            voorwerpen = new List<Voorwerp>();
         }
     }
 }
