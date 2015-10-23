@@ -57,6 +57,9 @@
     <Compile Include="Paardenfokkerij.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StamboomItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="PaardenfokkerijForm.resx">
       <DependentUpon>PaardenfokkerijForm.cs</DependentUpon>
     </EmbeddedResource>

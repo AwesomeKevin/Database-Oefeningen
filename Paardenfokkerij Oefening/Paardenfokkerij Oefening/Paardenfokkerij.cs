@@ -10,6 +10,8 @@ namespace Paardenfokkerij_Oefening
     {
         DatabaseConnectie dbc = new DatabaseConnectie();
 
+        public List<Paard> Paarden { get; set; }
+
         public string Naam
         {
             get;
