@@ -1,0 +1,14 @@
+C:\Users\Lars\Desktop\school\Database\oefening1\oefening1\bin\Debug\oefening1.exe.config
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\bin\Debug\oefening1.exe.config
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\bin\Debug\oefening1.exe
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\bin\Debug\oefening1.pdb
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\bin\Debug\Oracle.DataAccess.dll
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\obj\Debug\oefening1.csprojResolveAssemblyReference.cache
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\obj\Debug\oefening1.Form1.resources
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\obj\Debug\oefening1.Properties.Resources.resources
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\obj\Debug\oefening1.csproj.GenerateResource.Cache
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\obj\Debug\oefening1.exe
+C:\Users\gebruiker-pc\Desktop\oefening1\oefening1\obj\Debug\oefening1.pdb
+C:\Users\gebruiker-pc\Desktop\KaartDeck opdracht\oefening1\bin\Debug\oefening1.exe.config
+C:\Users\gebruiker-pc\Desktop\KaartDeck opdracht\oefening1\obj\Debug\oefening1.exe
+C:\Users\gebruiker-pc\Desktop\KaartDeck opdracht\oefening1\obj\Debug\oefening1.pdb

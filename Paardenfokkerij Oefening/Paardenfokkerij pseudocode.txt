@@ -1,0 +1,87 @@
+FUNCTION PaardenFunctie
+	RETURNS TABLE OF INTEGER;
+IS
+
+cursor c_paardenStamboom
+is
+SELECT *
+FROM PAARD
+WHERE ID IN ()
+v_fatherID PAARD.IDFATHER%type;
+v_motherID PAARD.IDFATHER%type;
+
+BEGIN
+TYPE horsesToProcess IS TABLE OF INTEGER;
+TYPE processedHorses IS TABLE OF INTEGER;
+
+FOR i in 1..horsesToProcess.Count
+LOOP
+	v_fatherID := -1;
+	v_motherID := -1;	
+
+	v_horseID := horsesToProcess(i);
+	ProcessHorse(v_horseID);
+	
+	processedHorses.Extend(1);
+	processedHorses(processedHorses.Last) := horsesToProcess(i);
+
+	IF v_fatherID = -1 AND processedHorses.Exists(v_fatherID)
+	THEN
+		horsesToProcess.Extend(1);
+		horsesToProcess(horsesToProcess.Last) := v_fatherID;
+	END IF;
+	
+	IF v_motherID = -1 AND processedHorses.Exists(v_motherID)
+	THEN
+		horsesToProcess.Extend(1);
+		horsesToProcess(horsesToProcess.Last) := v_motherID;
+	END IF;
+
+	
+END LOOP;
+RETURN processedHorses;
+END PaardenFunctie;
+
+
+
+
+
+Collection horsesToProcess; -- id's
+Collection processedHorses; -- id's
+
+
+WHILE (horsesToProcess.count > 0) --zolang er paarden zijn die verwerkt moeten worden
+{
+	for (int i = 0; i < horsestoprocess.count; i++)
+	{
+		Horse horse = horsesToProcess[i];
+
+		ProcessHorse(horse); --gegevens ophalen voor het gegeven id 
+		
+		horsesToProcess.Remove(horse);
+		processedHorses.Add(horse);
+
+		if (--fatherID != null && processedhorses bevat geen paard met een ID dat gelijk is aan fatherID)
+		{
+			horsestoprocess.Add(horse.fatherID);
+		}
+		if (--motherID != null && processedhorses bevat geen paard met een ID dat gelijk is aan motherID)
+		{
+			horsestoprocess.Add(horse.motherID );
+		}	
+	}
+}
+
+horsesToProcess
+4
+3
+2
+1
+
+processedHorses
+1, Henk, 4, 3
+2, Kees, 1, 5
+
+voorbeeld processedHorses:
+
+ID: 1, Naam: henk, FatherID: 4, MotherID: 3

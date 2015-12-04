@@ -1,0 +1,31 @@
+Bezoeker heeft 3 genres.
+
+Query geeft top 5 van films (plus in welke bioscoop ze draaien)
+
+Film scoort punten naar aanleiding van beoordelingen
+
+
+Stappen:
+
+1. Bepaal welke films in aanmerking komen
+	indien minder dan 5, ook vanuit andere genres
+
+2. Film scoort punten aan de hand van de gemiddelde beoordeling
+	berekening beoordeling film:
+	
+	Gemiddelde van alle beoordelingen (indien beoordelaar genre X beoordeelt, terwijl hij/zij genre X in zijn/haar profiel heeft staan. Telt deze beoordeling 2 keer)
+		uitzondering: indien minder dan 5 beoordelingen, gemiddelde is 3
+
+	Indien het genre van de film overeenkomt met een genre in het profiel van de bezoeker, dan wordt de score met 3 vermenigvuldigd.
+
+3. Sorteer de films op score en neem de top 5
+
+NEGEREN
+-------
+SELECT *
+FROM FILM f
+WHERE f.GENREID IN (	SELECT g.ID
+			FROM GENRE g, GENRE_BEZOEKER gb
+			WHERE g.ID = gb.GENREID
+			AND gb.BEZOEKERID = )
+-----
